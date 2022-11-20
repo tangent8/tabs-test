@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+body {
+  background-color: #4c607c;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+}::-webkit-meter-even-less-good-value
+
+.tab-block {
+  width: 100%;
+  height: 200px;
+/*  margin: 5px auto;*/
+}
+.tab-block .tab-mnu {
+  display: block;
+  list-style: none;
+}
+
+.tab-block .tab-mnu li {
+  box-sizing: border-box;
+  float: left;
+  background-color: #b2bbc0;
+  color: white;
+  width: 14.2857142857%;
+  width: 12.5%;
+  text-align: center;
+  font-size: 2vw;
+  cursor: pointer;
+}
+.tab-block .tab-mnu li:not(:last-child) {
+  border-right: 1px solid #4c607c;
+}
+.tab-block .tab-mnu li:hover:not(.active) {
+  background-color: #c0c7cb;
+}
+.tab-block .tab-mnu .active {
+  background-color: #fff;
+  color: #596165;
+  border-bottom: 1px solid #eaecec;
+  cursor: default;
+}
+.tab-block .tab-cont {
+  box-sizing: border-box;
+  border-top: 1px solid white;
+  background-color: white;
+  color: #292d2f;
+}
+.tab-block .tab-cont .tab-pane {
+  padding: 0px 0px;
+}
+
